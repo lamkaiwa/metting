@@ -1,0 +1,8 @@
+output/
+build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+*.p12
+*.mobileprovision
+*.ipa

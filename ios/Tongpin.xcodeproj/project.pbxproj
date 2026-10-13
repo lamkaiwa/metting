@@ -1,0 +1,47 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  AE9A2FA4973D6BFCE9251CC5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+  EE092D5CCC88EF6CC40A9B36 = {isa = PBXBuildFile; fileRef = AE9A2FA4973D6BFCE9251CC5; };
+  8250E59628685CBDC44A39E5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+  C47707DC34F41C9C52D688F2 = {isa = PBXBuildFile; fileRef = 8250E59628685CBDC44A39E5; };
+  DB24E1BDB3CDB6D02B6A6EFD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteConfiguration.swift; sourceTree = "<group>"; };
+  1DADBDAA69D58A34893B6D5A = {isa = PBXBuildFile; fileRef = DB24E1BDB3CDB6D02B6A6EFD; };
+  4D90887656D8E39DE19D0139 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+  D528E5A0E736AAE8570FAB5F = {isa = PBXBuildFile; fileRef = 4D90887656D8E39DE19D0139; };
+  269F8A7A4AB5D572B50D149B = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+  B73C99D48AA7D2A762484964 = {isa = PBXBuildFile; fileRef = 269F8A7A4AB5D572B50D149B; };
+  53E97F9E38CC85E05BC98769 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  11669119FB39271FC0C91001 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tongpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  099EFDD9A6F63CBBEF426B05 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteConfigurationTests.swift; sourceTree = "<group>"; };
+  2D0E420D48E81AEB6BB2BAA4 = {isa = PBXBuildFile; fileRef = 099EFDD9A6F63CBBEF426B05; };
+  4C71027ED57EE058CAB9BF51 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+  6071667E48E4494925ACC4B8 = {isa = PBXGroup; children = (AE9A2FA4973D6BFCE9251CC5,8250E59628685CBDC44A39E5,DB24E1BDB3CDB6D02B6A6EFD,4D90887656D8E39DE19D0139,269F8A7A4AB5D572B50D149B,53E97F9E38CC85E05BC98769,); path = Tongpin; sourceTree = "<group>"; };
+  11C0FAEC172D9B5F9E344437 = {isa = PBXGroup; children = (099EFDD9A6F63CBBEF426B05,); path = TongpinTests; sourceTree = "<group>"; };
+  739200C88C0FD4797908F50E = {isa = PBXGroup; children = (11669119FB39271FC0C91001,4C71027ED57EE058CAB9BF51,); name = Products; sourceTree = "<group>"; };
+  7663498AC5B9C9B92444BB2C = {isa = PBXGroup; children = (6071667E48E4494925ACC4B8,11C0FAEC172D9B5F9E344437,739200C88C0FD4797908F50E,); sourceTree = "<group>"; };
+  84D4CCA5EFDBFE8C02A30480 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (EE092D5CCC88EF6CC40A9B36,C47707DC34F41C9C52D688F2,1DADBDAA69D58A34893B6D5A,D528E5A0E736AAE8570FAB5F,); runOnlyForDeploymentPostprocessing = 0; };
+  1BE30CEEF88EFDBFDCA4C63B = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (B73C99D48AA7D2A762484964,); runOnlyForDeploymentPostprocessing = 0; };
+  8D1EF23758F3E549CBC3C1E5 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  40C921641585D5862B47804D = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (2D0E420D48E81AEB6BB2BAA4,); runOnlyForDeploymentPostprocessing = 0; };
+  D6ABD14EE74FDFEAB8C2F754 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  9FD0538068A9B0CADFA51649 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ENABLE_TESTABILITY = YES; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1","$(inherited)"); DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+  8DAA32CB8FFF7463937119A1 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+  349337DE92C71EDD035467FA = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Tongpin/Info.plist; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = hk.tongpin.ios; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks"); }; name = Debug; };
+  8298F8458EDFB1210F07FC7E = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Tongpin/Info.plist; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = hk.tongpin.ios; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks"); }; name = Release; };
+  20803C1D4089F0FDBF3E4A8F = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = hk.tongpin.ios.tests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tongpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tongpin"; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+  B766EEABC2E17BED1848C849 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = hk.tongpin.ios.tests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tongpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tongpin"; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+  2668FF986C28DF03D2F944B0 = {isa = XCConfigurationList; buildConfigurations = (9FD0538068A9B0CADFA51649,8DAA32CB8FFF7463937119A1,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  17A00CB995F676F6797725F4 = {isa = XCConfigurationList; buildConfigurations = (349337DE92C71EDD035467FA,8298F8458EDFB1210F07FC7E,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  F03AA369012F9AFD5C0D1266 = {isa = XCConfigurationList; buildConfigurations = (20803C1D4089F0FDBF3E4A8F,B766EEABC2E17BED1848C849,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  96D4954502CD7D6A92712E04 = {isa = PBXContainerItemProxy; containerPortal = D21655DE3583D7A13DCE53EE; proxyType = 1; remoteGlobalIDString = 024B7281C8BC182FACA21EBD; remoteInfo = Tongpin; };
+  BC99180CC99A3DA0A0A3179C = {isa = PBXTargetDependency; target = 024B7281C8BC182FACA21EBD; targetProxy = 96D4954502CD7D6A92712E04; };
+  024B7281C8BC182FACA21EBD = {isa = PBXNativeTarget; buildConfigurationList = 17A00CB995F676F6797725F4; buildPhases = (84D4CCA5EFDBFE8C02A30480,8D1EF23758F3E549CBC3C1E5,1BE30CEEF88EFDBFDCA4C63B,); buildRules = (); dependencies = (); name = Tongpin; productName = Tongpin; productReference = 11669119FB39271FC0C91001; productType = "com.apple.product-type.application"; };
+  23DDFC58AE72162AC97E08A8 = {isa = PBXNativeTarget; buildConfigurationList = F03AA369012F9AFD5C0D1266; buildPhases = (40C921641585D5862B47804D,D6ABD14EE74FDFEAB8C2F754,); buildRules = (); dependencies = (BC99180CC99A3DA0A0A3179C,); name = TongpinTests; productName = TongpinTests; productReference = 4C71027ED57EE058CAB9BF51; productType = "com.apple.product-type.bundle.unit-test"; };
+  D21655DE3583D7A13DCE53EE = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1500; TargetAttributes = {024B7281C8BC182FACA21EBD = {CreatedOnToolsVersion = 15.0; }; 23DDFC58AE72162AC97E08A8 = {CreatedOnToolsVersion = 15.0; TestTargetID = 024B7281C8BC182FACA21EBD; }; }; }; buildConfigurationList = 2668FF986C28DF03D2F944B0; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (zh_CN,en,Base,); mainGroup = 7663498AC5B9C9B92444BB2C; productRefGroup = 739200C88C0FD4797908F50E; projectDirPath = ""; projectRoot = ""; targets = (024B7281C8BC182FACA21EBD,23DDFC58AE72162AC97E08A8,); };
+ };
+ rootObject = D21655DE3583D7A13DCE53EE;
+}

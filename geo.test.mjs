@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {distanceKm,coarsePoint,nearbyItems,distanceLabel} from './public/geo.js';
+assert.equal(distanceKm([0,0],[0,0]),0);
+assert.ok(Math.abs(distanceKm([0,0],[0,1])-111.195)<.01);
+assert.ok(Math.abs(distanceKm([22.28,114.16],[22.30,114.17])-distanceKm([22.30,114.17],[22.28,114.16]))<1e-9);
+assert.ok(distanceKm([0,179.9],[0,-179.9])<23);
+assert.deepEqual(coarsePoint([22.283217,114.156912]),[22.28,114.16]);
+assert.throws(()=>coarsePoint([NaN,114]));
+assert.throws(()=>distanceKm([91,0],[0,0]));
+assert.equal(distanceLabel(0),'約 1 公里內');
+const p=[{id:2,point:[22.30,114.17]},{id:1,point:[22.28,114.16]}];
+assert.deepEqual(nearbyItems(p,[22.28,114.16],5).map(x=>x.id),[1,2]);
+assert.deepEqual(nearbyItems(p,[22.28,114.16],1).map(x=>x.id),[1]);
+assert.equal(nearbyItems(p,[40.71,-74],50).length,0);
+console.log('Geolocation math: 11 checks passed');

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">同频</string>
+    <string name="headline">相遇，由你。</string>
+    <string name="subtitle">香港 · 成年人的轻约会空间</string>
+    <string name="open_site">进入同频</string>
+    <string name="hint">聊天、附近的人与专属推荐，在同一个空间。</string>
+    <string name="account_note">首次使用，登录网站账号并输入 16 位 Token。浏览器会记住登录状态。</string>
+    <string name="browser_unavailable">手机尚未安装可打开网页的浏览器。安装 Chrome 或其他浏览器后，重新点击进入。</string>
+    <string name="browser_failed">暂时无法打开，请重试。</string>
+    <string name="open_browser">用浏览器打开</string>
+    <string name="respect">18+ · 尊重彼此，坦诚相遇</string>
+</resources>

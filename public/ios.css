@@ -1,0 +1,9 @@
+@media (max-width:800px) and (hover:none){
+  .field input:not([type=checkbox]):not([type=radio]),.field select,.field textarea{font-size:16px}
+}
+@media (display-mode:standalone) and (max-width:800px){
+  .topbar{height:calc(73px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top)}
+  .partner-header{padding-top:calc(20px + env(safe-area-inset-top))}
+  .modal-overlay{padding-top:max(14px,env(safe-area-inset-top));padding-bottom:max(14px,env(safe-area-inset-bottom))}
+  .chat-workspace{height:calc(100dvh - 245px - env(safe-area-inset-top) - env(safe-area-inset-bottom))}
+}
